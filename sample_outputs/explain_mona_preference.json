@@ -1,0 +1,55 @@
+{
+  "fact_id": "contact:contact_mona_478:preference:evt-1013",
+  "entity_type": "contact",
+  "entity_id": "contact_mona_478",
+  "attribute": "preference",
+  "value": "email_only_except_p1",
+  "status": "current",
+  "confidence": 0.6,
+  "reasoning": "reliability=medium (weight=20); recency_rank=2; explicit supersede of 'WhatsApp preference' (+50); TOTAL=72; STATUS=current (highest score, no tie)",
+  "valid_from": "2026-04-06T12:40:00Z",
+  "valid_to": null,
+  "sources": [
+    {
+      "event_id": "evt-1013",
+      "idempotency_key": "idem-1013",
+      "occurred_at": "2026-04-06T12:40:00Z",
+      "source": "email",
+      "actor": "Mona Salem",
+      "entity_type": "contact",
+      "entity_id": "contact_mona_478",
+      "related_entity_ids": [
+        "acct_helios_478"
+      ],
+      "reliability": "medium",
+      "text": "Mona asks the team to stop using WhatsApp for Helios support. New compliance rule: email only unless there is a P1 outage.",
+      "payload": {
+        "preference": "email_only_except_p1",
+        "supersedes": "WhatsApp preference"
+      },
+      "body_hash": "6e0f1f12a73b3be909735e81790a31dedaff62ad5941bfdac2fdd459ec520b06",
+      "ingest_status": "new",
+      "ingested_at": "2026-06-17 23:35:57"
+    }
+  ],
+  "competing_facts": [
+    {
+      "fact_id": "contact:contact_mona_478:preference:evt-1002",
+      "entity_type": "contact",
+      "entity_id": "contact_mona_478",
+      "attribute": "preference",
+      "value": "WhatsApp",
+      "status": "superseded",
+      "confidence": 0.6,
+      "valid_from": "2026-04-01T09:07:00Z",
+      "valid_to": "2026-04-01T09:07:00Z",
+      "source_event_ids": [
+        "evt-1002"
+      ],
+      "superseded_by": null,
+      "reasoning": "reliability=medium (weight=20); recency_rank=1; TOTAL=21; STATUS=superseded (lower score than current)",
+      "scope_account_id": null,
+      "derived_at": "2026-06-17 23:35:57"
+    }
+  ]
+}

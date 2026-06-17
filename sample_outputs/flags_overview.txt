@@ -1,0 +1,21 @@
+
+============================================================
+SYSTEM FLAGS OVERVIEW
+============================================================
+
+IDEMPOTENCY CONFLICTS:
+  - Key 'idem-1008': evt-1008 vs evt-1009
+    Original hash: 2b296775d0a2a6c2...
+    Conflicting hash: 398d783017bcaa0a...
+
+DUPLICATE CANDIDATES:
+  - evt-1005 may duplicate evt-1004 (payload_field)
+  - evt-1008 may duplicate evt-1004 (payload_field)
+
+AMBIGUOUS IDENTITIES:
+  - contact_m_salem_478 <-> contact_omar_478 (shared_phone:+20 10 5555 0142) [needs_review]
+  - acct_helios_478 <-> contact_m_salem_478 (text_mention_ambiguity) [needs_review]
+  - acct_nova_478 <-> contact_omar_478 (text_mention_ambiguity) [needs_review]
+
+============================================================
+

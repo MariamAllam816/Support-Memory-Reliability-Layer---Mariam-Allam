@@ -1,0 +1,43 @@
+
+============================================================
+CONTEXT: ACCOUNT acct_helios_478
+Built at: 2026-06-17T23:35:57.703624+00:00
+============================================================
+
+CURRENT FACTS:
+  - account_name: Helios Apps (confidence: 0.60) [sources: evt-1001]
+  - plan: Enterprise Support (confidence: 0.90) [sources: evt-1003]
+  - region: Cairo (confidence: 0.60) [sources: evt-1001]
+
+SUPERSEDED FACTS (still visible for traceability):
+  - plan: Starter [sources: evt-1001]
+    Reason: reliability=medium (weight=20); recency_rank=1; TOTAL=21; STATUS=superseded (lower score than current)
+  - plan: Starter [sources: evt-1018]
+    Reason: reliability=low (weight=10); recency_rank=3; self-flagged old fact (-50); TOTAL=-37; STATUS=superseded (lower score than current)
+
+RELATED ENTITY FACTS:
+  - account_name: Helios Apps [sources: evt-1001]
+  - plan: Enterprise Support [sources: evt-1003]
+  - region: Cairo [sources: evt-1001]
+  - affected_seats: 48 [sources: evt-1007]
+  - priority: P1 [sources: evt-1005]
+  - root_cause: cache_invalidation [sources: evt-1019]
+  - status: resolved [sources: evt-1019]
+  - symptom: dashboard_down [sources: evt-1004]
+  - email: m.salem-assistant@example.test [sources: evt-1014]
+  - phone: +20 10 5555 0142 [sources: evt-1014]
+  - account_id: acct_helios_478 [sources: evt-1002]
+  - contact_name: Mona Salem [sources: evt-1002]
+  - preference: email_only_except_p1 [sources: evt-1013]
+
+AMBIGUOUS IDENTITIES (NEVER AUTO-MERGED):
+  - contact_m_salem_478 <-> contact_omar_478 (basis: shared_phone:+20 10 5555 0142)
+  - acct_helios_478 <-> contact_m_salem_478 (basis: text_mention_ambiguity)
+
+SYSTEM FLAGS:
+  - idempotency_conflict: {"conflict_id": 1, "idempotency_key": "idem-1008", "original_event_id": "evt-1008", "conflicting_event_id": "evt-1009", "original_body_hash": "2b296775d0a2a6c2eab879f262e9b2af4b2e4667dffd72d0864a1de1a52a8bd8", "conflicting_body_hash": "398d783017bcaa0a789e0d2262df2a8e37df4a07ecd196cb521a84e24a46f7dc", "detected_at": "2026-06-17 23:35:57"}
+  - duplicate_candidate: {"candidate_id": 1, "event_id": "evt-1005", "possible_duplicate_of": "evt-1004", "basis": "payload_field", "detected_at": "2026-06-17 23:35:57"}
+  - duplicate_candidate: {"candidate_id": 2, "event_id": "evt-1008", "possible_duplicate_of": "evt-1004", "basis": "payload_field", "detected_at": "2026-06-17 23:35:57"}
+
+============================================================
+

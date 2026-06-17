@@ -1,0 +1,3 @@
+Ingested 19 new, 0 duplicate no-ops, 1 conflicts, 0 skipped
+Derived 29 facts: 22 current, 4 superseded, 0 contradicted, 2 unverified
+Detected 3 ambiguous identity pairs

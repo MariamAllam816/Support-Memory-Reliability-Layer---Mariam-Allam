@@ -1,0 +1,32 @@
+
+============================================================
+CONTEXT: ACCOUNT acct_nova_478
+Built at: 2026-06-17T23:35:58.002352+00:00
+============================================================
+
+CURRENT FACTS:
+  - account_name: Nova Clinic (confidence: 0.60) [sources: evt-1010]
+  - no_training: True (confidence: 0.60) [sources: evt-1010]
+  - plan: Business (confidence: 0.90) [sources: evt-1017]
+
+POLICIES (account-scoped):
+  - no_cross_account_analytics: True [sources: evt-1011]
+  - no_training: True [sources: evt-1011]
+
+RELATED ENTITY FACTS:
+  - priority: P2 [sources: evt-1016]
+  - topic: patient_data_exports [sources: evt-1016]
+  - phone: +20 10 5555 0142 [sources: evt-1015]
+  - no_cross_account_analytics: True [sources: evt-1011]
+  - no_training: True [sources: evt-1011]
+  - scope_account_id: acct_nova_478 [sources: evt-1011]
+  - account_name: Nova Clinic [sources: evt-1010]
+  - no_training: True [sources: evt-1010]
+  - plan: Business [sources: evt-1017]
+
+AMBIGUOUS IDENTITIES (NEVER AUTO-MERGED):
+  - contact_m_salem_478 <-> contact_omar_478 (basis: shared_phone:+20 10 5555 0142)
+  - acct_nova_478 <-> contact_omar_478 (basis: text_mention_ambiguity)
+
+============================================================
+

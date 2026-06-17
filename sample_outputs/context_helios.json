@@ -1,0 +1,300 @@
+{
+  "entity_id": "acct_helios_478",
+  "entity_type": "account",
+  "built_at": "2026-06-17T23:35:57.783488+00:00",
+  "account_facts": [
+    {
+      "attribute": "account_name",
+      "value": "Helios Apps",
+      "status": "current",
+      "confidence": 0.6,
+      "valid_from": "2026-04-01T09:00:00Z",
+      "valid_to": null,
+      "source_event_ids": [
+        "evt-1001"
+      ],
+      "reasoning": "reliability=medium (weight=20); recency_rank=1; TOTAL=21; STATUS=current (highest score, no tie)",
+      "scope_account_id": null
+    },
+    {
+      "attribute": "plan",
+      "value": "Enterprise Support",
+      "status": "current",
+      "confidence": 0.9,
+      "valid_from": "2026-04-02T13:12:00Z",
+      "valid_to": null,
+      "source_event_ids": [
+        "evt-1003"
+      ],
+      "reasoning": "reliability=high (weight=30); recency_rank=2; TOTAL=32; STATUS=current (highest score, no tie)",
+      "scope_account_id": null
+    },
+    {
+      "attribute": "region",
+      "value": "Cairo",
+      "status": "current",
+      "confidence": 0.6,
+      "valid_from": "2026-04-01T09:00:00Z",
+      "valid_to": null,
+      "source_event_ids": [
+        "evt-1001"
+      ],
+      "reasoning": "reliability=medium (weight=20); recency_rank=1; TOTAL=21; STATUS=current (highest score, no tie)",
+      "scope_account_id": null
+    }
+  ],
+  "superseded_facts": [
+    {
+      "attribute": "plan",
+      "value": "Starter",
+      "status": "superseded",
+      "confidence": 0.6,
+      "valid_from": "2026-04-01T09:00:00Z",
+      "valid_to": "2026-04-01T09:00:00Z",
+      "source_event_ids": [
+        "evt-1001"
+      ],
+      "reasoning": "reliability=medium (weight=20); recency_rank=1; TOTAL=21; STATUS=superseded (lower score than current)",
+      "scope_account_id": null
+    },
+    {
+      "attribute": "plan",
+      "value": "Starter",
+      "status": "superseded",
+      "confidence": 0.1,
+      "valid_from": "2026-04-09T16:20:00Z",
+      "valid_to": "2026-04-09T16:20:00Z",
+      "source_event_ids": [
+        "evt-1018"
+      ],
+      "reasoning": "reliability=low (weight=10); recency_rank=3; self-flagged old fact (-50); TOTAL=-37; STATUS=superseded (lower score than current)",
+      "scope_account_id": null
+    }
+  ],
+  "contradicted_facts": [],
+  "related_facts": [
+    {
+      "attribute": "affected_seats",
+      "value": 48,
+      "status": "current",
+      "confidence": 0.8999999999999999,
+      "valid_from": "2026-04-04T10:32:00Z",
+      "valid_to": null,
+      "source_event_ids": [
+        "evt-1007"
+      ],
+      "reasoning": "reliability=medium (weight=20); recency_rank=2; explicit correction (+50); TOTAL=72; STATUS=current (highest score, no tie)",
+      "scope_account_id": null
+    },
+    {
+      "attribute": "priority",
+      "value": "P1",
+      "status": "current",
+      "confidence": 0.6,
+      "valid_from": "2026-04-04T10:01:00Z",
+      "valid_to": null,
+      "source_event_ids": [
+        "evt-1005"
+      ],
+      "reasoning": "reliability=medium (weight=20); recency_rank=2; TOTAL=22; STATUS=current (highest score, no tie)",
+      "scope_account_id": null
+    },
+    {
+      "attribute": "root_cause",
+      "value": "cache_invalidation",
+      "status": "current",
+      "confidence": 0.9,
+      "valid_from": "2026-04-10T11:00:00Z",
+      "valid_to": null,
+      "source_event_ids": [
+        "evt-1019"
+      ],
+      "reasoning": "reliability=high (weight=30); recency_rank=1; TOTAL=31; STATUS=current (highest score, no tie)",
+      "scope_account_id": null
+    },
+    {
+      "attribute": "status",
+      "value": "resolved",
+      "status": "current",
+      "confidence": 0.9,
+      "valid_from": "2026-04-10T11:00:00Z",
+      "valid_to": null,
+      "source_event_ids": [
+        "evt-1019"
+      ],
+      "reasoning": "reliability=high (weight=30); recency_rank=1; TOTAL=31; STATUS=current (highest score, no tie)",
+      "scope_account_id": null
+    },
+    {
+      "attribute": "symptom",
+      "value": "dashboard_down",
+      "status": "current",
+      "confidence": 0.6,
+      "valid_from": "2026-04-04T10:00:00Z",
+      "valid_to": null,
+      "source_event_ids": [
+        "evt-1004"
+      ],
+      "reasoning": "reliability=medium (weight=20); recency_rank=1; TOTAL=21; STATUS=current (highest score, no tie)",
+      "scope_account_id": null
+    },
+    {
+      "attribute": "account_name",
+      "value": "Helios Apps",
+      "status": "current",
+      "confidence": 0.6,
+      "valid_from": "2026-04-01T09:00:00Z",
+      "valid_to": null,
+      "source_event_ids": [
+        "evt-1001"
+      ],
+      "reasoning": "reliability=medium (weight=20); recency_rank=1; TOTAL=21; STATUS=current (highest score, no tie)",
+      "scope_account_id": null
+    },
+    {
+      "attribute": "plan",
+      "value": "Enterprise Support",
+      "status": "current",
+      "confidence": 0.9,
+      "valid_from": "2026-04-02T13:12:00Z",
+      "valid_to": null,
+      "source_event_ids": [
+        "evt-1003"
+      ],
+      "reasoning": "reliability=high (weight=30); recency_rank=2; TOTAL=32; STATUS=current (highest score, no tie)",
+      "scope_account_id": null
+    },
+    {
+      "attribute": "region",
+      "value": "Cairo",
+      "status": "current",
+      "confidence": 0.6,
+      "valid_from": "2026-04-01T09:00:00Z",
+      "valid_to": null,
+      "source_event_ids": [
+        "evt-1001"
+      ],
+      "reasoning": "reliability=medium (weight=20); recency_rank=1; TOTAL=21; STATUS=current (highest score, no tie)",
+      "scope_account_id": null
+    },
+    {
+      "attribute": "email",
+      "value": "m.salem-assistant@example.test",
+      "status": "current",
+      "confidence": 0.6,
+      "valid_from": "2026-04-06T13:10:00Z",
+      "valid_to": null,
+      "source_event_ids": [
+        "evt-1014"
+      ],
+      "reasoning": "reliability=medium (weight=20); recency_rank=1; TOTAL=21; STATUS=current (highest score, no tie)",
+      "scope_account_id": null
+    },
+    {
+      "attribute": "phone",
+      "value": "+20 10 5555 0142",
+      "status": "current",
+      "confidence": 0.6,
+      "valid_from": "2026-04-06T13:10:00Z",
+      "valid_to": null,
+      "source_event_ids": [
+        "evt-1014"
+      ],
+      "reasoning": "reliability=medium (weight=20); recency_rank=1; TOTAL=21; STATUS=current (highest score, no tie)",
+      "scope_account_id": null
+    },
+    {
+      "attribute": "account_id",
+      "value": "acct_helios_478",
+      "status": "current",
+      "confidence": 0.6,
+      "valid_from": "2026-04-01T09:07:00Z",
+      "valid_to": null,
+      "source_event_ids": [
+        "evt-1002"
+      ],
+      "reasoning": "reliability=medium (weight=20); recency_rank=1; TOTAL=21; STATUS=current (highest score, no tie)",
+      "scope_account_id": null
+    },
+    {
+      "attribute": "contact_name",
+      "value": "Mona Salem",
+      "status": "current",
+      "confidence": 0.6,
+      "valid_from": "2026-04-01T09:07:00Z",
+      "valid_to": null,
+      "source_event_ids": [
+        "evt-1002"
+      ],
+      "reasoning": "reliability=medium (weight=20); recency_rank=1; TOTAL=21; STATUS=current (highest score, no tie)",
+      "scope_account_id": null
+    },
+    {
+      "attribute": "preference",
+      "value": "email_only_except_p1",
+      "status": "current",
+      "confidence": 0.6,
+      "valid_from": "2026-04-06T12:40:00Z",
+      "valid_to": null,
+      "source_event_ids": [
+        "evt-1013"
+      ],
+      "reasoning": "reliability=medium (weight=20); recency_rank=2; explicit supersede of 'WhatsApp preference' (+50); TOTAL=72; STATUS=current (highest score, no tie)",
+      "scope_account_id": null
+    }
+  ],
+  "policies": [],
+  "unverified_claims": [],
+  "ambiguous_identities": [
+    {
+      "pair_id": 1,
+      "entity_a": "contact_m_salem_478",
+      "entity_b": "contact_omar_478",
+      "basis": "shared_phone:+20 10 5555 0142",
+      "status": "needs_review",
+      "detected_at": "2026-06-17 23:35:57"
+    },
+    {
+      "pair_id": 2,
+      "entity_a": "acct_helios_478",
+      "entity_b": "contact_m_salem_478",
+      "basis": "text_mention_ambiguity",
+      "status": "needs_review",
+      "detected_at": "2026-06-17 23:35:57"
+    }
+  ],
+  "system_flags": [
+    {
+      "type": "idempotency_conflict",
+      "details": {
+        "conflict_id": 1,
+        "idempotency_key": "idem-1008",
+        "original_event_id": "evt-1008",
+        "conflicting_event_id": "evt-1009",
+        "original_body_hash": "2b296775d0a2a6c2eab879f262e9b2af4b2e4667dffd72d0864a1de1a52a8bd8",
+        "conflicting_body_hash": "398d783017bcaa0a789e0d2262df2a8e37df4a07ecd196cb521a84e24a46f7dc",
+        "detected_at": "2026-06-17 23:35:57"
+      }
+    },
+    {
+      "type": "duplicate_candidate",
+      "details": {
+        "candidate_id": 1,
+        "event_id": "evt-1005",
+        "possible_duplicate_of": "evt-1004",
+        "basis": "payload_field",
+        "detected_at": "2026-06-17 23:35:57"
+      }
+    },
+    {
+      "type": "duplicate_candidate",
+      "details": {
+        "candidate_id": 2,
+        "event_id": "evt-1008",
+        "possible_duplicate_of": "evt-1004",
+        "basis": "payload_field",
+        "detected_at": "2026-06-17 23:35:57"
+      }
+    }
+  ]
+}

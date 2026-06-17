@@ -1,0 +1,72 @@
+{
+  "fact_id": "account:acct_helios_478:plan:evt-1003",
+  "entity_type": "account",
+  "entity_id": "acct_helios_478",
+  "attribute": "plan",
+  "value": "Enterprise Support",
+  "status": "current",
+  "confidence": 0.9,
+  "reasoning": "reliability=high (weight=30); recency_rank=2; TOTAL=32; STATUS=current (highest score, no tie)",
+  "valid_from": "2026-04-02T13:12:00Z",
+  "valid_to": null,
+  "sources": [
+    {
+      "event_id": "evt-1003",
+      "idempotency_key": "idem-1003",
+      "occurred_at": "2026-04-02T13:12:00Z",
+      "source": "contract",
+      "actor": "contract_importer",
+      "entity_type": "account",
+      "entity_id": "acct_helios_478",
+      "related_entity_ids": [],
+      "reliability": "high",
+      "text": "Signed addendum says Helios upgraded to Enterprise Support effective 2026-04-02. P1 response target is 2 hours. Phone escalation is included.",
+      "payload": {
+        "plan": "Enterprise Support",
+        "p1_response_hours": 2,
+        "phone_escalation": true
+      },
+      "body_hash": "3023a8f732affd4bdf615180ecdc8381928291531dbd04374b278b39c2dfc415",
+      "ingest_status": "new",
+      "ingested_at": "2026-06-17 23:35:57"
+    }
+  ],
+  "competing_facts": [
+    {
+      "fact_id": "account:acct_helios_478:plan:evt-1001",
+      "entity_type": "account",
+      "entity_id": "acct_helios_478",
+      "attribute": "plan",
+      "value": "Starter",
+      "status": "superseded",
+      "confidence": 0.6,
+      "valid_from": "2026-04-01T09:00:00Z",
+      "valid_to": "2026-04-01T09:00:00Z",
+      "source_event_ids": [
+        "evt-1001"
+      ],
+      "superseded_by": null,
+      "reasoning": "reliability=medium (weight=20); recency_rank=1; TOTAL=21; STATUS=superseded (lower score than current)",
+      "scope_account_id": null,
+      "derived_at": "2026-06-17 23:35:57"
+    },
+    {
+      "fact_id": "account:acct_helios_478:plan:evt-1018",
+      "entity_type": "account",
+      "entity_id": "acct_helios_478",
+      "attribute": "plan",
+      "value": "Starter",
+      "status": "superseded",
+      "confidence": 0.1,
+      "valid_from": "2026-04-09T16:20:00Z",
+      "valid_to": "2026-04-09T16:20:00Z",
+      "source_event_ids": [
+        "evt-1018"
+      ],
+      "superseded_by": null,
+      "reasoning": "reliability=low (weight=10); recency_rank=3; self-flagged old fact (-50); TOTAL=-37; STATUS=superseded (lower score than current)",
+      "scope_account_id": null,
+      "derived_at": "2026-06-17 23:35:57"
+    }
+  ]
+}
